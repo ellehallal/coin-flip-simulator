@@ -9,7 +9,7 @@ const coinflip = (num) => {
 
     if(randomNumber === 0){
       heads++;
-      console.log("heads:" + heads)
+      console.log("heads:" + heads);
     }
     else{
       tails++;
@@ -23,7 +23,7 @@ const coinflip = (num) => {
   else if (tails > heads){
     return "tails wins: " + tails + " flips";
   }
-  else{
-    return "it's a tie!"
+  else {
+    return "it's a tie!";
   }
 };
