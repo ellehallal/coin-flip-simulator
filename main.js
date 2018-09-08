@@ -1,5 +1,11 @@
+let number = document.getElementbyId("number")
+let button = document.getElementbyId("flipbutton")
+let results = document.getElementbyId("results")
+let headsresults = document.getElementbyId("headsresults")
+let tailsresults = document.getElementbyId("tailsresults")
 
-const coinflip = (num) => {
+
+const coinflip = (number) => {
   let tails = 0
   let heads = 0
 
@@ -18,12 +24,15 @@ const coinflip = (num) => {
   }
 
   if(heads > tails){
-    return "heads wins: " + heads + " flips"
+    results.innerHTML =  "heads wins: " + heads + " flips"
   }
   else if (tails > heads){
-    return "tails wins: " + tails + " flips";
+    results.innerHTML = "tails wins: " + tails + " flips";
   }
   else {
-    return "it's a tie!";
+    results.innerHTML = "it's a tie!";
   }
+
+  headsresults.innerHTML = "Heads: " + heads;
+  tailsresults.innerHTML = "Tails: " + tails;
 };
