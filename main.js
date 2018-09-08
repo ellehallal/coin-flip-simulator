@@ -4,10 +4,11 @@ let results = document.getElementById("results");
 let headsresults = document.getElementById("headsresults");
 let tailsresults = document.getElementById("tailsresults");
 
-const coinflip = () => {
+button.addEventListener("click", function() {
   let tails = 0;
   let heads = 0;
   let usernumber = parseInt(number.value);
+  console.log(usernumber)
 
   for (let i = 0; i < usernumber; i++) {
     let randomNumber = Math.floor(Math.random() * 2);
@@ -36,6 +37,6 @@ const coinflip = () => {
   headsresults.innerHTML = "Heads: " + heads;
   tailsresults.innerHTML = "Tails: " + tails;
   console.log(usernumber)
-};
+});
 
-button.addEventListener("click", coinflip());
+// button.addEventListener("click", coinflip());
