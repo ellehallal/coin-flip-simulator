@@ -3,16 +3,18 @@ body{
   padding: 0;
   height: 100%;
   text-align: center;
+  background-image: linear-gradient();
 }
 
 .container{
-  width: 70%;
+  width: 50%;
 }
 
 #header-image{
-  background-image: url(./img/exchange.jpg);
+  background-image: url(./img/coin.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 200px;
+  position: relative;
 }
