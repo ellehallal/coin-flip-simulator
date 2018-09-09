@@ -1,0 +1,18 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+.container{
+  width: 70%;
+}
+
+#header-image{
+  background-image: url(./img/exchange.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
