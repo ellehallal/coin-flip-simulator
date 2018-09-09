@@ -1,6 +1,7 @@
 let number = document.getElementById("number");
 let alert = document.getElementById("alert");
 let button = document.getElementById("flipbutton");
+let reset = document.getElementById("resetbutton");
 let results = document.getElementById("results");
 let headsresults = document.getElementById("headsresults");
 let tailsresults = document.getElementById("tailsresults");
@@ -48,4 +49,6 @@ button.addEventListener("click", function() {
   }
 });
 
-// button.addEventListener("click", coinflip());
+reset.addEventListener("click", function () {
+  number.value = 0;
+});
