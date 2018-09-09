@@ -77,3 +77,30 @@ input[type=button]{
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+footer > p{
+  margin: 1%;
+}
+
+.credit{
+  font-size: 0.6rem;
+}
+
+.fab {
+  color: #000000;
+  margin: 1%;
+  font-size: 0.5rem;
+}
+
+.fab:hover {
+  color: #EE6E73;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: #EE6E73
+}
