@@ -59,4 +59,7 @@ button.addEventListener("click", function() {
 
 reset.addEventListener("click", function () {
   number.value = 0;
+  headsresults.innerHTML = "Heads: 0";
+  tailsresults.innerHTML = "Tails: 0";
+  results.innerHTML = "";
 });
