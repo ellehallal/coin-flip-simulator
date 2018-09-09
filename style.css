@@ -1,3 +1,4 @@
+
 html{
   height: 100%;
 }
@@ -6,7 +7,8 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
-  background-image: linear-gradient(to bottom, #EEB9B7, #F6DD9D)
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(to bottom, #EEB9B7, #F6DD9D);
 }
 
 body > div, header, footer {
@@ -17,7 +19,7 @@ body > div, header, footer {
 }
 
 .container{
-  width: 50%;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
@@ -35,7 +37,10 @@ header{
   border-radius: 10px;
 }
 
-h1{
-  background-color: red;
+.title{
+  background-color: #E56399;
   color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
 }
