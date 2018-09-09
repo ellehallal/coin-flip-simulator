@@ -1,11 +1,11 @@
-# Coin Flip Generator
+# Coin Flip Simulator
 
 Simulates flipping a coin and recording if the coin lands on heads or tails more frequently.
 
 User can enter amount of times they wish to flip the coin (maximum 1000 flips).
 
 ### Live version: ###
-tbc
+https://coin-flip.netlify.com/
 
 ### Created using: ###
 - HTML
