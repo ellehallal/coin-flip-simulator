@@ -36,7 +36,6 @@ button.addEventListener("click", function() {
       }
     }
 
-
     if(heads === 1) {
       wordflip = "flip";
     }
