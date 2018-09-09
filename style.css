@@ -44,3 +44,10 @@ header{
   font-weight: bold;
   padding: 0.5rem;
 }
+
+.alert{
+  background-color: #E56399;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+}

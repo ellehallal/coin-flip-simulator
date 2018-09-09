@@ -13,7 +13,11 @@ button.addEventListener("click", function() {
 
   if (usernumber < 1 || usernumber > 1000) {
     alert.innerHTML = "Please enter a number between 1 - 1000";
-    setTimeout(function () { alert.innerHTML = "";}, 1200);
+    alert.classList.add("alert");
+    setTimeout(function () {
+      alert.innerHTML = "";
+      alert.classList.remove("alert")
+    }, 1500);
   }
 
   else {
