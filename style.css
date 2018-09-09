@@ -1,20 +1,41 @@
+html{
+  height: 100%;
+}
+
 body{
   margin: 0;
   padding: 0;
-  height: 100%;
   text-align: center;
-  background-image: linear-gradient();
+  background-image: linear-gradient(to bottom, #EEB9B7, #F6DD9D)
+}
+
+body > div, header, footer {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 2%;
 }
 
 .container{
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
-#header-image{
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url(./img/coin.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 200px;
   position: relative;
+  border-radius: 10px;
+}
+
+h1{
+  background-color: red;
+  color: white;
 }
