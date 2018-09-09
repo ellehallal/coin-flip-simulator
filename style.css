@@ -73,6 +73,10 @@ input[type=button]{
   border-radius: 10px;
 }
 
+.scoreboard{
+  font-weight: bold;
+}
+
 #results{
   font-size: 1.5rem;
   font-weight: bold;
@@ -89,11 +93,11 @@ footer > p{
 .fab {
   color: #000000;
   margin: 1%;
-  font-size: 0.5rem;
+  color: #EE6E73
 }
 
 .fab:hover {
-  color: #EE6E73;
+  color: #F6DD9D;
 }
 
 a {
