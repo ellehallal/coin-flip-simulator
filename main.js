@@ -9,6 +9,7 @@ let tailsresults = document.getElementById("tailsresults");
 button.addEventListener("click", function() {
   let tails = 0;
   let heads = 0;
+  let wordflip = ""
   let usernumber = parseInt(number.value);
   console.log(usernumber);
 
@@ -35,10 +36,18 @@ button.addEventListener("click", function() {
       }
     }
 
+
+    if(heads === 1) {
+      wordflip = "flip";
+    }
+    else {
+      wordflip = "flips";
+    }
+
     if (heads > tails) {
-      results.innerHTML = "Heads wins with " + heads + " flips!";
+      results.innerHTML = "Heads wins with " + heads + " " + wordflip + "!";
     } else if (tails > heads) {
-      results.innerHTML = "Tails wins with " + tails + " flips!";
+      results.innerHTML = "Tails wins with " + tails + " " + wordflip + "!";
     } else {
       results.innerHTML = "It's a tie!";
     }
